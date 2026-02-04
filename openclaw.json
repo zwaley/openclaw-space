@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "defaults": {
+      "model": "qwen-portal/coder-model"
+    }
+  },
+  "email": {
+    "smtp": {
+      "server": "smtp.gmail.com",
+      "port": 587,
+      "username": "qlscool@gmail.com",
+      "password": "<<<INSERT_YOUR_GMAIL_APP_PASSWORD_HERE>>>",
+      "use_tls": true
+    }
+  },
+  "feishu": {
+    "enabled": true
+  }
+}
